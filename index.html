@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Post App</h1>
+
+        <!-- Theme Change -->
+        <button class="theme-btn" onclick="changeTheme()">Change Background</button>
+
+        <!-- Post Form -->
+        <form id="post-form">
+            <input type="text" id="post-title" placeholder="Enter title" required>
+            <textarea id="post-content" placeholder="Write your post..." required></textarea>
+            <button type="submit">Add Post</button>
+        </form>
+
+        <!-- Posts List -->
+        <div id="posts-list">
+            <!-- Posts will appear here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
